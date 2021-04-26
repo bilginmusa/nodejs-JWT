@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.27.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5",
+    "sucrase": "^3.18.1"
+  }
+}
